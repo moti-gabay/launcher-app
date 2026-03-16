@@ -7,13 +7,13 @@ import LaunchterDatailsPage from '../pages/LaunchterDatailsPage/LaunchterDatails
 function AppRoutes() {
     return (
         <Routes>
-
+            
             <Route path='/' element={<HomePage />} />
             <Route path='/AddLauncherPage' element={<AddLauncherPage />} />
             <Route path='/LaunchterDatailsPage' element={<LaunchterDatailsPage />} />
         </Routes>
-        
     )
+    
 }
 
 export default AppRoutes
