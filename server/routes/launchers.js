@@ -11,7 +11,6 @@ launchersRouter.get('/', async (req, res) => {
     try {
         const resualts = await launchers.find({}).toArray();
         return res.status(200).json(resualts)
-
     } catch (error) {
         console.error(error)
     }
@@ -64,8 +63,6 @@ launchersRouter.delete('/:id', async (req, res) => {
     try {
         const resualts = await launchers.deleteOne({ _id: new ObjectId(id) })
         if (!resualts) {
-            console.log(resualts);
-
             return res.status(404).json({ error: "launcher not deleted" })
         }
         return res.status(200).json(resualts.deletedCount);
