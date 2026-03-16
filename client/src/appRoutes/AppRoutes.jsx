@@ -3,7 +3,7 @@ import { Route, Router, Routes } from 'react-router-dom'
 import HomePage from '../pages/HomePage/HomePage'
 import AddLauncherPage from '../pages/AddLauncherPage/AddLauncherPage'
 import LaunchterDatailsPage from '../pages/LaunchterDatailsPage/LaunchterDatailsPage'
-import Navbar from '../components/LauncherItem/Navbar/Navbar'
+import Navbar from '../components/Navbar/Navbar'
 
 function AppRoutes() {
     return (
