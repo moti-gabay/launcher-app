@@ -13,6 +13,7 @@ function AppRoutes() {
             <Route path='/LaunchterDatailsPage' element={<LaunchterDatailsPage />} />
         </Routes>
     )
+    
 }
 
 export default AppRoutes
